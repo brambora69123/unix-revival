@@ -1,0 +1,8 @@
+# Redirect non-existing pages to index.php
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([0-9]+)/friends/count$ /v1/friends/count.php?userid=$1 [L]
+RewriteRule ^([0-9]+)/friends$ /v1/friends/?userid=$1 [L]
+RewriteRule . /v1/gamepass.php [L]

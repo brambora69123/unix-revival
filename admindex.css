@@ -1,0 +1,447 @@
+form{
+  width: auto;
+}
+
+.admin-navbar{
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  margin-bottom: 100px;
+  background: linear-gradient(
+    45deg,
+    rgb(102, 74, 205),
+    rgb(113, 83, 225)
+  );
+  justify-content: space-between;
+}
+
+.admin-navbar a{
+
+  text-decoration: none;
+  
+}
+
+.admin-navbar-button{
+  color: white;
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(45deg, rgb(21, 21, 21),rgb(18, 18, 18) );
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: padding-left 500ms, padding-right 500ms;
+  z-index: 1;
+  height: 100%;
+}
+
+
+.admin-navbar-button:hover{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(
+    45deg,
+    rgb(72, 43, 175),
+    rgb(41, 23, 105)
+  );
+}
+
+.admin-navbar-logo{
+  height: 100%;
+  margin: 0;
+}
+
+.admin-navbar-content{
+  height: 40px;
+  display: flex;
+}
+
+.admin-navbar-left-div{
+  margin-right: auto;
+  display: flex;
+}
+
+.admin-navbar-right-div{
+  margin-left: auto;
+}
+
+.admin-navbar-text{
+  display: inline;
+  font-size: 18px;
+}
+
+:disabled::placeholder{
+  color: rgb(70, 70, 70);
+}
+
+:disabled{
+  background-color: rgb(15, 15, 15) !important;
+  background-image: none !important;
+}
+
+.admin-select-input{
+  padding: 10px;
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(45deg, rgb(21, 21, 21), rgb(18, 18, 18));
+  border: none;
+  border-radius: 16px;
+  color: white;
+  width: 100%;
+  display: block;
+}
+
+.admin-text-input{
+  padding: 10px;
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(45deg, rgb(21, 21, 21),rgb(18, 18, 18) );
+  
+  border: none;
+
+  border-radius: 16px;
+
+  outline-offset: 2px;
+  outline-color: lightgrey;
+  outline-style: none;
+  outline-width: 1px !important;
+
+  color: white;
+  width: 100%;
+  overflow: hidden;
+  resize: vertical;
+  display: block;
+}
+
+.admin-text-selector{
+  padding: 10px;
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(45deg, rgb(21, 21, 21),rgb(18, 18, 18) );
+
+  border-radius: 16px;
+
+  border: none;
+
+  outline-offset: 2px;
+  outline-color: lightgrey;
+  outline-style: none;
+  outline-width: 1px !important;
+
+  color: white;
+  width: 100%;
+  overflow: hidden;
+  resize: vertical;
+  display: block;
+}
+
+.admin-text-selector:focus{
+  outline-style: solid;
+}
+
+.admin-text-input:focus{
+  outline-style: solid;
+}
+
+.admin-text-input-end{
+  margin-left: 10px;
+}
+
+.admin-text-input-bottom{
+  margin-top: 10px;
+}
+
+.admin-button-submit{
+  padding: 10px;
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(45deg, rgb(21, 21, 21),rgb(18, 18, 18) );
+  border: none;
+  border-radius: 16px;
+  color: white;
+  width: 100%;
+  display: block;
+}
+
+.admin-button-div{
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.admin-button{
+  padding: 10px;
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(45deg, rgb(21, 21, 21),rgb(18, 18, 18) );
+  border: none;
+  border-radius: 16px;
+  color: white;
+  width: 100%;
+  display: block;
+}
+
+.margin-right{
+  margin-right: 10px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.no-margin-bottom{
+  margin-bottom: 0 !important; 
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.admin-button:hover{
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(
+    45deg,
+    rgb(102, 74, 205),
+    rgb(170, 154, 226)
+  );
+
+}
+
+
+.admin-button-submit:hover{
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(
+    45deg,
+    rgb(102, 74, 205),
+    rgb(170, 154, 226)
+  );
+
+}
+
+.admin-copy-input{
+  padding: 10px;
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(45deg, rgb(21, 21, 21),rgb(18, 18, 18) );
+  border: none;
+  border-radius: 16px;
+  color: white;
+  width: 100%;
+  display: block;
+}
+
+.admin-copy-input:hover{
+
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(
+    45deg,
+    rgb(102, 74, 205),
+    rgb(170, 154, 226)
+  );
+
+}
+
+.admin-keygen-text-input-div{
+  display: flex;
+}
+
+.admin-lookup-text-input-div{
+  display: flex;
+}
+.please-dont-have-flexbox-i-beg-you {
+  display: block;
+}
+
+.please-dont-have-flexbox-i-beg-you-instead-contents {
+  display: contents;
+}
+
+.admin-game-uploader-inputs {
+  display: flex;
+}
+
+.small-size {
+  width: 30% !important;
+}
+
+.admin-popup-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 500px;
+  max-width: 500px;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(45deg, rgba(12, 12, 12, 0.7),rgba(8, 8, 8, 0.7) );
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  padding: 10px;
+  display: none;
+}
+
+.admin-popup-container h1{
+  font-size:28px
+}
+
+.shown {
+  display: block !important;
+}
+
+.admin-table{
+  border-collapse:separate;
+  margin-top: 10px;
+  width: 100%;
+  
+  background-image: linear-gradient(45deg, rgb(21, 21, 21),rgb(18, 18, 18) );
+  border-radius: 16px;
+}
+
+.admin-table td{
+  padding: 10px;
+  color: white;
+
+  
+}
+
+.admin-table th{
+  padding: 15px;
+  color: white;
+  background-color: rgb(10, 10, 10);
+}
+
+.admin-th-cell-start{
+  border-top-left-radius: 16px;
+}
+
+.admin-th-cell-end{
+  border-top-right-radius: 16px;
+}
+
+.admin-table tr{
+  padding: 10px;
+  color: white;
+
+}
+
+.admin-table td:first-child, th:first-child {
+  border-left: none;
+}
+
+.admin-dashboard-div{
+  width: 100%;
+
+}
+
+.admin-dashboard-div-section{
+  margin: 5px;
+  border-radius: 16px;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+.admin-dashboard-div-section table{
+  margin-top: 0;
+}
+
+.admin-th-cell-reg-action{
+  width: 30%;
+}
+
+.admin-table-button{
+  color: white;
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(
+    45deg,
+    rgb(102, 74, 205),
+    rgb(170, 154, 226)
+  );
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: padding-left 500ms, padding-right 500ms;
+  z-index: 1;
+}
+.admin-moderation-offender-ban{
+  background-image: linear-gradient(
+    45deg,
+    rgb(255, 0, 0),
+    rgb(255, 113, 113)
+  ) !important;
+}
+
+.admin-moderation-offender-tempban{
+  background-image: linear-gradient(
+    45deg,
+    rgb(74, 158, 205),
+    rgb(143, 215, 255)
+  ) !important;
+}
+
+.admin-moderation-offender-warn{
+  background-image: linear-gradient(
+    45deg,
+    rgb(102, 74, 205),
+    rgb(170, 154, 226)
+  ) !important;
+}
+
+.admin-placefile-uploader {
+  display: block !important;
+
+}
+
+.admin-placefile-uploader::file-selector-button{
+  color: white;
+  background-color: rgb(10, 10, 10);
+  background-image: linear-gradient(45deg, rgb(21, 21, 21),rgb(18, 18, 18) );
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.admin-subheader{
+  font-size: 28px;
+}
+
+.admin-placefile-uploader::file-selector-button:hover{
+  background-image: linear-gradient(
+    45deg,
+    rgb(102, 74, 205),
+    rgb(170, 154, 226)
+  )
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(10, 10, 10);
+  border-radius: 16px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(102, 74, 205);
+  border-radius: 16px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(170, 154, 226);
+}

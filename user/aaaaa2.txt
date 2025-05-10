@@ -1,0 +1,67 @@
+Input: requesterUserId=5
+POST Data: {"requesterUserId":"5"}
+Output: {"message":"error"}
+Input: requesterUserId=5
+POST Data: {"requesterUserId":"5"}
+ROBLOSECURITY: fqVbDl50NMCqS6X3lc5UeZZraac6tWb85SfXsxh026gugnTuuuiEhVm5t07gnB51
+User authenticated: ID 3
+Attempting to accept friend request from 5 to 3
+userExists: true for ID 3
+userExists: true for ID 5
+Both users exist
+Checking if friend request exists between user1: 5 and user2: 3
+friendRequestExists: true for user1: 5 and user2: 3
+Friend request exists
+Deleting friend request
+Inserting new friend relationship
+Updating friends count for user1
+Updating friends count for user2
+Output: {"success":true}
+Input: requesterUserId=3
+POST Data: {"requesterUserId":"3"}
+ROBLOSECURITY: L5sg8x3D1eElwOYjNvT9Hcu2DCQeb6z3NGYdM0IpkWLt4kBiYtdrM1cXkddcKkR2
+User authenticated: ID 5
+Attempting to accept friend request from 3 to 5
+userExists: true for ID 5
+userExists: true for ID 3
+Both users exist
+Checking if friend request exists between user1: 3 and user2: 5
+friendRequestExists: true for user1: 3 and user2: 5
+Friend request exists
+Deleting friend request
+Inserting new friend relationship
+Updating friends count for user1
+Updating friends count for user2
+Output: {"success":true}
+Input: requesterUserId=3
+POST Data: {"requesterUserId":"3"}
+ROBLOSECURITY: L5sg8x3D1eElwOYjNvT9Hcu2DCQeb6z3NGYdM0IpkWLt4kBiYtdrM1cXkddcKkR2
+User authenticated: ID 5
+Attempting to accept friend request from 3 to 5
+userExists: true for ID 5
+userExists: true for ID 3
+Both users exist
+Checking if friend request exists between user1: 3 and user2: 5
+friendRequestExists: true for user1: 3 and user2: 5
+Friend request exists
+Deleting friend request
+Inserting new friend relationship
+Updating friends count for user1
+Updating friends count for user2
+Output: {"success":true}
+Input: requesterUserId=38
+POST Data: {"requesterUserId":"38"}
+ROBLOSECURITY: fqVbDl50NMCqS6X3lc5UeZZraac6tWb85SfXsxh026gugnTuuuiEhVm5t07gnB51
+User authenticated: ID 3
+Attempting to accept friend request from 38 to 3
+userExists: true for ID 3
+userExists: true for ID 38
+Both users exist
+Checking if friend request exists between user1: 38 and user2: 3
+friendRequestExists: true for user1: 38 and user2: 3
+Friend request exists
+Deleting friend request
+Inserting new friend relationship
+Updating friends count for user1
+Updating friends count for user2
+Output: {"success":true}

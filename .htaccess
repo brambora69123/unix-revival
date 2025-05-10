@@ -1,0 +1,27 @@
+RewriteEngine On
+
+
+
+# Serve PHP files without the .php extension
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+
+# Handle custom PHP extensions
+AddHandler application/x-httpd-php .ashx
+AddType application/x-httpd-php .ashx
+AddHandler application/x-httpd-php .aspx
+AddType application/x-httpd-php .aspx
+
+# Disable directory listing
+Options -Indexes
+DirectorySlash Off
+
+# Custom error documents
+ErrorDocument 404 /error404.php
+ErrorDocument 403 /error403.php
+ErrorDocument 401 /error401.php
+ErrorDocument 400 /error400.php
+ErrorDocument 500 /error500.php
+
+

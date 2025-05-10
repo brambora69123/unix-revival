@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.unixfr.xyz/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Shirt" referent="RBX33AF6F1240DE4E589F4380698BAE55E6">
+		<Properties>
+			<string name="Name">Shirt</string>
+			<Content name="ShirtTemplate"><url>http://www.unixfr.xyz/asset/?id=319333401 </url></Content>
+		</Properties>
+	</Item>
+</roblox>

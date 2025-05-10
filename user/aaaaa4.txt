@@ -1,0 +1,45 @@
+Input: friendUserId=5
+POST Data: {"friendUserId":"5"}
+ROBLOSECURITY: fqVbDl50NMCqS6X3lc5UeZZraac6tWb85SfXsxh026gugnTuuuiEhVm5t07gnB51
+User authenticated: ID 3
+Attempting to unfriend user 5 by 3
+userExists: true for ID 3
+userExists: true for ID 5
+Both users exist
+Checking friendship status between user1: 3 and user2: 5
+areUsersFriends: true for user1: 3 and user2: 5
+Users are friends
+Deleting friend relationship
+Updating friends count for user1
+Updating friends count for user2
+Output: {"success":true}
+Input: friendUserId=5
+POST Data: {"friendUserId":"5"}
+ROBLOSECURITY: fqVbDl50NMCqS6X3lc5UeZZraac6tWb85SfXsxh026gugnTuuuiEhVm5t07gnB51
+User authenticated: ID 3
+Attempting to unfriend user 5 by 3
+userExists: true for ID 3
+userExists: true for ID 5
+Both users exist
+Checking friendship status between user1: 3 and user2: 5
+areUsersFriends: true for user1: 3 and user2: 5
+Users are friends
+Deleting friend relationship
+Updating friends count for user1
+Updating friends count for user2
+Output: {"success":true}
+Input: friendUserId=38
+POST Data: {"friendUserId":"38"}
+ROBLOSECURITY: fqVbDl50NMCqS6X3lc5UeZZraac6tWb85SfXsxh026gugnTuuuiEhVm5t07gnB51
+User authenticated: ID 3
+Attempting to unfriend user 38 by 3
+userExists: true for ID 3
+userExists: true for ID 38
+Both users exist
+Checking friendship status between user1: 3 and user2: 38
+areUsersFriends: true for user1: 3 and user2: 38
+Users are friends
+Deleting friend relationship
+Updating friends count for user1
+Updating friends count for user2
+Output: {"success":true}

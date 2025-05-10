@@ -1,0 +1,135 @@
+Input: recipientUserId=3
+POST Data: {"recipientUserId":"3"}
+ROBLOSECURITY: SnXYZ5ZhTwoeuMZk5MOQSwJjtPxlmL3Q9gIgtAOrCK4OBF4NxtdQ7RFngOVRbjrH
+User authenticated: ID 44
+Attempting to create friend relationship between 44 and 3
+Checking friendship status between user1: 44 and user2: 3
+areUsersFriends: false for user1: 44 and user2: 3
+Users are not friends yet
+userExists: true for ID 44
+userExists: true for ID 3
+Both users exist
+Checking if friend request exists between user1: 44 and user2: 3
+friendRequestExists: false for user1: 44 and user2: 3
+No existing friend request, creating a new one
+Output: {"success":true}
+Input: recipientUserId=37
+POST Data: {"recipientUserId":"37"}
+ROBLOSECURITY: SnXYZ5ZhTwoeuMZk5MOQSwJjtPxlmL3Q9gIgtAOrCK4OBF4NxtdQ7RFngOVRbjrH
+User authenticated: ID 44
+Attempting to create friend relationship between 44 and 37
+Checking friendship status between user1: 44 and user2: 37
+areUsersFriends: false for user1: 44 and user2: 37
+Users are not friends yet
+userExists: true for ID 44
+userExists: true for ID 37
+Both users exist
+Checking if friend request exists between user1: 44 and user2: 37
+friendRequestExists: false for user1: 44 and user2: 37
+No existing friend request, creating a new one
+Output: {"success":true}
+Input: recipientUserId=3
+POST Data: {"recipientUserId":"3"}
+ROBLOSECURITY: V5FuOStk8gQok3UdVVqQ293RuisJ6ktGtJxGurU91dnDAijlAMg0U4Zr8afinMVN
+User authenticated: ID 54
+Attempting to create friend relationship between 54 and 3
+Checking friendship status between user1: 54 and user2: 3
+areUsersFriends: false for user1: 54 and user2: 3
+Users are not friends yet
+userExists: true for ID 54
+userExists: true for ID 3
+Both users exist
+Checking if friend request exists between user1: 54 and user2: 3
+friendRequestExists: true for user1: 54 and user2: 3
+Friend request exists
+Output: {"message":"Only the recipient can accept the friend request"}
+Input: recipientUserId=37
+POST Data: {"recipientUserId":"37"}
+ROBLOSECURITY: V5FuOStk8gQok3UdVVqQ293RuisJ6ktGtJxGurU91dnDAijlAMg0U4Zr8afinMVN
+User authenticated: ID 54
+Attempting to create friend relationship between 54 and 37
+Checking friendship status between user1: 54 and user2: 37
+areUsersFriends: false for user1: 54 and user2: 37
+Users are not friends yet
+userExists: true for ID 54
+userExists: true for ID 37
+Both users exist
+Checking if friend request exists between user1: 54 and user2: 37
+friendRequestExists: false for user1: 54 and user2: 37
+No existing friend request, creating a new one
+Output: {"success":true}
+Input: recipientUserId=3
+POST Data: {"recipientUserId":"3"}
+ROBLOSECURITY: L5sg8x3D1eElwOYjNvT9Hcu2DCQeb6z3NGYdM0IpkWLt4kBiYtdrM1cXkddcKkR2
+User authenticated: ID 5
+Attempting to create friend relationship between 5 and 3
+Checking friendship status between user1: 5 and user2: 3
+areUsersFriends: false for user1: 5 and user2: 3
+Users are not friends yet
+userExists: true for ID 5
+userExists: true for ID 3
+Both users exist
+Checking if friend request exists between user1: 5 and user2: 3
+friendRequestExists: false for user1: 5 and user2: 3
+No existing friend request, creating a new one
+Output: {"success":true}
+Input: recipientUserId=3
+POST Data: {"recipientUserId":"3"}
+ROBLOSECURITY: L5sg8x3D1eElwOYjNvT9Hcu2DCQeb6z3NGYdM0IpkWLt4kBiYtdrM1cXkddcKkR2
+User authenticated: ID 5
+Attempting to create friend relationship between 5 and 3
+Checking friendship status between user1: 5 and user2: 3
+areUsersFriends: false for user1: 5 and user2: 3
+Users are not friends yet
+userExists: true for ID 5
+userExists: true for ID 3
+Both users exist
+Checking if friend request exists between user1: 5 and user2: 3
+friendRequestExists: false for user1: 5 and user2: 3
+No existing friend request, creating a new one
+Output: {"success":true}
+Input: recipientUserId=5
+POST Data: {"recipientUserId":"5"}
+ROBLOSECURITY: fqVbDl50NMCqS6X3lc5UeZZraac6tWb85SfXsxh026gugnTuuuiEhVm5t07gnB51
+User authenticated: ID 3
+Attempting to create friend relationship between 3 and 5
+Checking friendship status between user1: 3 and user2: 5
+areUsersFriends: false for user1: 3 and user2: 5
+Users are not friends yet
+userExists: true for ID 3
+userExists: true for ID 5
+Both users exist
+Checking if friend request exists between user1: 3 and user2: 5
+friendRequestExists: false for user1: 3 and user2: 5
+No existing friend request, creating a new one
+Output: {"success":true}
+Input: recipientUserId=5
+POST Data: {"recipientUserId":"5"}
+ROBLOSECURITY: fqVbDl50NMCqS6X3lc5UeZZraac6tWb85SfXsxh026gugnTuuuiEhVm5t07gnB51
+User authenticated: ID 3
+Attempting to create friend relationship between 3 and 5
+Checking friendship status between user1: 3 and user2: 5
+areUsersFriends: false for user1: 3 and user2: 5
+Users are not friends yet
+userExists: true for ID 3
+userExists: true for ID 5
+Both users exist
+Checking if friend request exists between user1: 3 and user2: 5
+friendRequestExists: false for user1: 3 and user2: 5
+No existing friend request, creating a new one
+Output: {"success":true}
+Input: recipientUserId=3
+POST Data: {"recipientUserId":"3"}
+ROBLOSECURITY: mx5THyLz8FIw9093ieizDA0iU1gmI4DrwnEyjhkfmZJZl7qaZ9AlUHbEyOKR58R3
+User authenticated: ID 38
+Attempting to create friend relationship between 38 and 3
+Checking friendship status between user1: 38 and user2: 3
+areUsersFriends: false for user1: 38 and user2: 3
+Users are not friends yet
+userExists: true for ID 38
+userExists: true for ID 3
+Both users exist
+Checking if friend request exists between user1: 38 and user2: 3
+friendRequestExists: false for user1: 38 and user2: 3
+No existing friend request, creating a new one
+Output: {"success":true}

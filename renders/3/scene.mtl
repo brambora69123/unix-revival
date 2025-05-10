@@ -1,0 +1,28 @@
+newmtl Player12Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.4 0.4 0.4 
+
+d 1
+
+Ns 2295
+
+map_Ka Player12Tex.png
+map_Kd Player12Tex.png
+map_d Player12Tex.png
+
+newmtl Player11Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.4 0.4 0.4 
+
+d 1
+
+Ns 2295
+
+map_Ka Player11Tex.png
+map_Kd Player11Tex.png
+map_d Player11Tex.png
+

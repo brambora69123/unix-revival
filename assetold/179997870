@@ -1,0 +1,311 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.unixfr.xyz/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Tool" referent="RBXBB32FC5A102346E98B60859815E59AC8">
+		<Properties>
+			<bool name="CanBeDropped">true</bool>
+			<bool name="Enabled">true</bool>
+			<CoordinateFrame name="Grip">
+				<X>-3.39994735e-08</X>
+				<Y>3.39994877e-08</Y>
+				<Z>-0.99999994</Z>
+				<R00>-0.707106709</R00>
+				<R01>-0.707106829</R01>
+				<R02>1.16108947e-15</R02>
+				<R10>0.707106829</R10>
+				<R11>-0.707106709</R11>
+				<R12>1.16108926e-15</R12>
+				<R20>0</R20>
+				<R21>-1.64202843e-15</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<bool name="ManualActivationOnly">false</bool>
+			<string name="Name">Superspeed Coil</string>
+			<bool name="RequiresHandle">true</bool>
+			<BinaryString name="Tags"></BinaryString>
+			<Content name="TextureId"><url></url></Content>
+			<string name="ToolTip">Speed Up Even More!</string>
+		</Properties>
+		<Item class="Part" referent="RBX2AE463D616FE436D8AC68EB0413E9A9C">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0.00999999978</X>
+					<Y>16.8900776</Y>
+					<Z>22.2900009</Z>
+					<R00>-0.707107842</R00>
+					<R01>0.707105696</R01>
+					<R02>-2.78802215e-21</R02>
+					<R10>1.11779158e-15</R10>
+					<R11>1.11779137e-15</R11>
+					<R12>1</R12>
+					<R20>0.707105696</R20>
+					<R21>0.707107842</R21>
+					<R22>1.70326086e-15</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4291045404</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Handle</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">3</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>1.29999995</X>
+					<Y>1.29999995</Y>
+					<Z>2.4000001</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Sound" referent="RBXC21253DAAE5F41DDB978FA93DA830462">
+				<Properties>
+					<float name="EmitterSize">10</float>
+					<bool name="Looped">false</bool>
+					<string name="Name">CoilSound</string>
+					<bool name="PlayOnRemove">false</bool>
+					<float name="PlaybackSpeed">1</float>
+					<bool name="Playing">false</bool>
+					<token name="RollOffMode">0</token>
+					<Ref name="SoundGroup">null</Ref>
+					<Content name="SoundId"><url>http://www.roblox.com/asset/?id=99173388</url></Content>
+					<BinaryString name="Tags"></BinaryString>
+					<double name="TimePosition">0</double>
+					<float name="Volume">1</float>
+					<float name="xmlRead_MaxDistance_3">10000</float>
+				</Properties>
+			</Item>
+			<Item class="SpecialMesh" referent="RBXA25F702DC60445F0976334865F0166D2">
+				<Properties>
+					<token name="LODX">2</token>
+					<token name="LODY">2</token>
+					<Content name="MeshId"><url>http://www.roblox.com/asset/?id=16606212</url></Content>
+					<token name="MeshType">5</token>
+					<string name="Name">Mesh</string>
+					<Vector3 name="Offset">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<Vector3 name="Scale">
+						<X>0.699999988</X>
+						<Y>0.699999988</Y>
+						<Z>0.699999988</Z>
+					</Vector3>
+					<BinaryString name="Tags"></BinaryString>
+					<Content name="TextureId"><url>http://www.unixfr.xyz/asset/?id=99170548</url></Content>
+					<Vector3 name="VertexColor">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>1</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="Attachment" referent="RBXED6B041FC0474E0AA36C7F1DEAAC5E5F">
+				<Properties>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>-0.99999994</Z>
+						<R00>-0.707106709</R00>
+						<R01>-0.707106829</R01>
+						<R02>-1.16108947e-15</R02>
+						<R10>0.707106829</R10>
+						<R11>-0.707106709</R11>
+						<R12>-1.16108936e-15</R12>
+						<R20>0</R20>
+						<R21>-1.64202843e-15</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">RightGripAttachment</string>
+					<BinaryString name="Tags"></BinaryString>
+					<bool name="Visible">false</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBXFFD1CFAF477042A593C7728200844B71">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">Script</string>
+				<string name="ScriptGuid">{7BA3255E-EB02-49E6-9002-F60B0BC586F2}</string>
+				<ProtectedString name="Source"><![CDATA[--Made by Stickmasterluke
+
+
+sp = script.Parent
+
+
+local speedboostscript = sp:WaitForChild("SpeedBoostScript")
+
+function Equipped()
+	if sp.Parent:FindFirstChild("SpeedBoostScript") == nil then
+		local s = speedboostscript:clone()
+		local tooltag = Instance.new("ObjectValue")
+		tooltag.Name = "ToolTag"
+		tooltag.Value = sp
+		tooltag.Parent = s
+		s.Parent = sp.Parent
+		s.Disabled = false
+		local sound = sp.Handle:FindFirstChild("CoilSound")
+		if sound ~= nil then
+			sound:Play()
+		end
+	end
+end
+
+sp.Equipped:connect(Equipped)]]></ProtectedString>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBXAF6D31EBEA48467EBBEB360B24B0FBF7">
+			<Properties>
+				<bool name="Disabled">true</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">SpeedBoostScript</string>
+				<string name="ScriptGuid">{61D76164-913D-4AA0-924B-4622B1E9783A}</string>
+				<ProtectedString name="Source"><![CDATA[--Made by Stickmasterluke
+
+
+sp = script.Parent
+
+speedboost = 50		--100% speed bonus
+speedforsmoke = 10	--smoke apears when character running >= 10 studs/second.
+
+
+local tooltag = script:WaitForChild("ToolTag",2)
+
+if tooltag~=nil then
+	local tool=tooltag.Value
+	local h=sp:FindFirstChild("Humanoid")
+	if h~=nil then
+		h.WalkSpeed=16+16*speedboost
+		local hrp = sp:FindFirstChild("HumanoidRootPart")
+		if hrp ~= nil then
+			smokepart=Instance.new("Part")
+			smokepart.FormFactor="Custom"
+			smokepart.Size=Vector3.new(0,0,0)
+			smokepart.TopSurface="Smooth"
+			smokepart.BottomSurface="Smooth"
+			smokepart.CanCollide=false
+			smokepart.Transparency=1
+			local weld=Instance.new("Weld")
+			weld.Name="SmokePartWeld"
+			weld.Part0 = hrp
+			weld.Part1=smokepart
+			weld.C0=CFrame.new(0,-3.5,0)*CFrame.Angles(math.pi/4,0,0)
+			weld.Parent=smokepart
+			smokepart.Parent=sp
+			smoke=Instance.new("Smoke")
+			smoke.Enabled = hrp.Velocity.magnitude>speedforsmoke
+			smoke.RiseVelocity=2
+			smoke.Opacity=.25
+			smoke.Size=.5
+			smoke.Parent=smokepart
+			h.Running:connect(function(speed)
+				if smoke and smoke~=nil then
+					smoke.Enabled=speed>speedforsmoke
+				end
+			end)
+		end
+	end
+	while tool~=nil and tool.Parent==sp and h~=nil do
+		sp.ChildRemoved:wait()
+	end
+	local h=sp:FindFirstChild("Humanoid")
+	if h~=nil then
+		h.WalkSpeed=16
+	end
+end
+
+if smokepart~=nil then
+	smokepart:Destroy()
+end
+script:Destroy()
+
+
+]]></ProtectedString>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Camera" referent="RBX5B48F2A3A6104C35917412056C746034">
+			<Properties>
+				<CoordinateFrame name="CFrame">
+					<X>-0.915832222</X>
+					<Y>3.36515403</Y>
+					<Z>2.26315284</Z>
+					<R00>0.954779267</R00>
+					<R01>0.044840537</R01>
+					<R02>-0.293915004</R02>
+					<R10>-0</R10>
+					<R11>0.988561749</R11>
+					<R12>0.150817871</R12>
+					<R20>0.297315806</R20>
+					<R21>-0.143997774</R21>
+					<R22>0.943858087</R22>
+				</CoordinateFrame>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<float name="FieldOfView">70</float>
+				<CoordinateFrame name="Focus">
+					<X>-0.328002214</X>
+					<Y>3.06351829</Y>
+					<Z>0.375436664</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="HeadLocked">true</bool>
+				<float name="HeadScale">1</float>
+				<string name="Name">ThumbnailCamera</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>

@@ -1,0 +1,430 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.unixfr.xyz/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Folder" referent="RBX313C942A9500453795491DD71A608AE2">
+		<Properties>
+			<string name="Name">R15</string>
+		</Properties>
+		<Item class="MeshPart" referent="RBX34FD581AF1FC446080D3CBC682FCC925">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>1.44355452</X>
+					<Y>3.84931326</Y>
+					<Z>0.0716305003</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<token name="CollisionFidelity">2</token>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<Vector3 name="InitialSize">
+					<X>1.31827712</X>
+					<Y>2.10024619</Y>
+					<Z>0.97021699</Z>
+				</Vector3>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<Content name="MeshID"><url>http://www.unixfr.xyz/asset/?id=658740003</url></Content>
+				<string name="Name">RightUpperArm</string>
+				<BinaryString name="PhysicsData"></BinaryString>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Content name="TextureID"><url>http://unixfr.xyz/asset/?id=658742091 </url></Content>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Vector3 name="size">
+					<X>1.31827712</X>
+					<Y>2.10024619</Y>
+					<Z>0.97021699</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Attachment" referent="RBXB3B0A11A432F4E01B9E6B4C09B32D200">
+				<Properties>
+					<CoordinateFrame name="CFrame">
+						<X>-0.193574071</X>
+						<Y>-0.123164177</Y>
+						<Z>-0.0596664995</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">RightShoulderRigAttachment</string>
+					<bool name="Visible">false</bool>
+				</Properties>
+			</Item>
+			<Item class="Attachment" referent="RBX9A6E3196C1DD4E13A1EC4B52A4DE8591">
+				<Properties>
+					<CoordinateFrame name="CFrame">
+						<X>0.0564455986</X>
+						<Y>-0.773164153</Y>
+						<Z>-0.0596664995</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">RightElbowRigAttachment</string>
+					<bool name="Visible">false</bool>
+				</Properties>
+			</Item>
+			<Item class="Attachment" referent="RBX5881E4A0BEF849C089D936F949476D8A">
+				<Properties>
+					<CoordinateFrame name="CFrame">
+						<X>0.056445241</X>
+						<Y>0.1268363</Y>
+						<Z>-0.059666615</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">RightShoulderAttachment</string>
+					<bool name="Visible">false</bool>
+				</Properties>
+			</Item>
+			<Item class="Vector3Value" referent="RBX40926A827FB340008E5A03B28F545FED">
+				<Properties>
+					<string name="Name">OriginalSize</string>
+					<Vector3 name="Value">
+						<X>1.31827712</X>
+						<Y>2.10024619</Y>
+						<Z>0.97021699</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="MeshPart" referent="RBXB97D2CABB8AC488A8A39F80D248854AB">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>1.61734653</X>
+					<Y>2.64840078</Y>
+					<Z>0.0385374948</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<token name="CollisionFidelity">2</token>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<Vector3 name="InitialSize">
+					<X>0.881858945</X>
+					<Y>0.927359104</Y>
+					<Z>0.622663021</Z>
+				</Vector3>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<Content name="MeshID"><url>http://www.unixfr.xyz/asset/?id=658739997</url></Content>
+				<string name="Name">RightLowerArm</string>
+				<BinaryString name="PhysicsData"></BinaryString>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Content name="TextureID"><url>http://unixfr.xyz/asset/?id=658742091 </url></Content>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Vector3 name="size">
+					<X>0.881858945</X>
+					<Y>0.927359104</Y>
+					<Z>0.622663021</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Attachment" referent="RBX5FF7B63F12894F86A0C4AC5E3452DBC6">
+				<Properties>
+					<CoordinateFrame name="CFrame">
+						<X>-0.117346406</X>
+						<Y>0.427748442</Y>
+						<Z>-0.0265734941</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">RightElbowRigAttachment</string>
+					<bool name="Visible">false</bool>
+				</Properties>
+			</Item>
+			<Item class="Attachment" referent="RBXA71DCBB5559240E3A1FEA00E7E20D11C">
+				<Properties>
+					<CoordinateFrame name="CFrame">
+						<X>-0.117346406</X>
+						<Y>-0.37225154</Y>
+						<Z>-0.0265734941</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">RightWristRigAttachment</string>
+					<bool name="Visible">false</bool>
+				</Properties>
+			</Item>
+			<Item class="Vector3Value" referent="RBX552BA3AFC6CB4FEE8EC3DAEB40E0B106">
+				<Properties>
+					<string name="Name">OriginalSize</string>
+					<Vector3 name="Value">
+						<X>0.881858945</X>
+						<Y>0.927359104</Y>
+						<Z>0.622663021</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="MeshPart" referent="RBX085055B7486C4F96B3D385B011FEFF98">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>1.45407104</X>
+					<Y>1.96459627</Y>
+					<Z>-0.0776449963</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<token name="CollisionFidelity">2</token>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<Vector3 name="InitialSize">
+					<X>0.716747999</X>
+					<Y>0.960211873</Y>
+					<Z>0.737604022</Z>
+				</Vector3>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<Content name="MeshID"><url>http://www.unixfr.xyz/asset/?id=658739993</url></Content>
+				<string name="Name">RightHand</string>
+				<BinaryString name="PhysicsData"></BinaryString>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Content name="TextureID"><url>http://unixfr.xyz/asset/?id=658742091 </url></Content>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Vector3 name="size">
+					<X>0.716747999</X>
+					<Y>0.960211873</Y>
+					<Z>0.737604022</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Attachment" referent="RBX78D53FD289F848D39491A7228DF99EAF">
+				<Properties>
+					<CoordinateFrame name="CFrame">
+						<X>0.0459290743</X>
+						<Y>0.311553031</Y>
+						<Z>0.0896089971</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">RightWristRigAttachment</string>
+					<bool name="Visible">false</bool>
+				</Properties>
+			</Item>
+			<Item class="Attachment" referent="RBX2BAFD4ABAE0A4BFBB9F31DE218F31BA3">
+				<Properties>
+					<CoordinateFrame name="CFrame">
+						<X>0.0459287167</X>
+						<Y>0.0115534067</Y>
+						<Z>0.0896087885</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>-0</R02>
+						<R10>0</R10>
+						<R11>6.12323426e-017</R11>
+						<R12>1</R12>
+						<R20>0</R20>
+						<R21>-1</R21>
+						<R22>6.12323426e-017</R22>
+					</CoordinateFrame>
+					<string name="Name">RightGripAttachment</string>
+					<bool name="Visible">false</bool>
+				</Properties>
+			</Item>
+			<Item class="Vector3Value" referent="RBX112C14F21FD9466886C61ED58A88CA41">
+				<Properties>
+					<string name="Name">OriginalSize</string>
+					<Vector3 name="Value">
+						<X>0.716747999</X>
+						<Y>0.960211873</Y>
+						<Z>0.737604022</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="Folder" referent="RBX22527307207B4099AF44734E136C782C">
+		<Properties>
+			<string name="Name">R6</string>
+		</Properties>
+		<Item class="CharacterMesh" referent="RBXC5DEE6D7928A4117BE6A2FC294BF5AB6">
+			<Properties>
+				<int name="BaseTextureId">0</int>
+				<token name="BodyPart">3</token>
+				<int name="MeshId">658711144</int>
+				<string name="Name">FrozenKnight   Right Arm</string>
+				<int name="OverlayTextureId">658710164</int>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>

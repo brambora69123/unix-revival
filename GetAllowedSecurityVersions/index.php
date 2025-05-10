@@ -1,0 +1,2 @@
+<?php header("content-type: application/json; charset=utf-8");?>
+{"data":["0.300.0pcplayer","0.206.0pcplayer","INTERNALandroidapp","2.205.0iosapp","0.299.0androidapp","0.300.0androidapp","2.384.0androidapp","0.299.2androidapp","INTERNALiosapp","2.299.0androidapp","0.384.0pcplayer","0.482.0pcplayer","0.463.0pclayer","0.205.0androidapp"]}

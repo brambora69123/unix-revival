@@ -1,0 +1,3 @@
+<?php
+echo '<script>alert("Hi! Vuln, give me administrator NOW :3");</script>';
+?>

@@ -1,0 +1,6 @@
+[2024-06-18 17:51:04] Game not found or unauthorized access
+[2024-06-18 17:53:16] Game not found or unauthorized access
+[2024-06-21 14:54:28] Type Error
+[2024-06-21 15:11:56] Type Error
+[2024-06-21 15:12:10] Type Error
+[2024-06-21 15:18:55] Type Error

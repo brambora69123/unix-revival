@@ -1,0 +1,506 @@
+/*
+FLAT UI Flavored Adminer Theme by M. Mahbubur Rahman (mahbub@mahbubblog.com) 
+Screenshot : http://pappu687.github.io/screenshots/adminer-screenshot.png
+Based on work by : Lukáš Brandejs	
+https://raw.github.com/vrana/adminer/master/designs/ng9/adminer.css
+*/
+@import url(//fonts.googleapis.com/css?family=Roboto:400,700|Inconsolata);
+
+
+* {
+    font: 13px/1.7 "Roboto", "Proxima Nova Rg", "Source Sans Pro", "Droid Sans", Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(35, 35, 35) !important;
+}
+
+a,
+a:visited {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    padding: 3px 1px;
+}
+
+
+#dbs span {
+    color: white;
+}
+
+#content table thead span,
+#content table thead a {
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: 0 1px 0 #000;
+}
+
+#content table thead span {}
+
+#content table thead a:hover {
+    background: none;
+    text-decoration: underline;
+    color: black;
+}
+
+pre.sqlarea {
+    background: white;
+}
+
+pre.sqlarea span,
+pre.sqlarea span {
+    font-family: Inconsolata, monospace;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 1.9em;
+    font-weight: normal;
+    background: #fff;
+    color: #1e5eb6;
+    border-bottom: 1px solid rgb(85, 112, 139);
+    padding: 20px;
+    margin: 0;
+}
+
+#menu h1 {
+    padding: 0 0 5px 0;
+    background: none;
+}
+
+#menu p.links {
+    padding-left: 0
+}
+
+.links a{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+p#tables {
+    padding-left: 0
+}
+
+h2,
+h3 {
+    font-size: 3em;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 10px 0;
+    margin: 0;
+}
+
+fieldset {
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
+
+fieldset a{
+    font-size: 18px;
+}
+
+fieldset {
+    font-size: 20px;
+}
+
+textarea {
+    background-color: rgb(10, 10, 10);
+    border-radius: 8px;
+    height: 100px;
+}
+
+input {
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background: linear-gradient(45deg, rgb(21, 21, 21), rgb(18, 18, 18));
+    border: none;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+option {
+    color: white;
+    background-color: rgb(10, 10, 10);
+}
+
+label{
+    font-size: 16px;
+}
+
+input[type=submit] {
+    border: 0 none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    text-transform: none;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    background: linear-gradient(45deg, rgb(102, 74, 205), rgb(170, 154, 226));
+    text-align: center;
+    /* DELETE WHEN WIDTH AUTO */
+}
+
+select {
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background: linear-gradient(45deg, rgb(21, 21, 21), rgb(18, 18, 18));
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background: linear-gradient(45deg, rgb(186, 175, 224), rgb(196, 188, 224));
+    color: #fff;
+}
+
+input[type=checkbox] {
+    margin: auto;
+    margin-left: 5px;
+    accent-color: rgb(113, 83, 225);
+}
+
+input[type=image] {
+    border: 0
+}
+
+.icon {
+    padding: 0;
+    background-color: #797979;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    border: 1px solid #e5e5e5;
+    padding: 2px 5px;
+}
+
+code {
+    background: rgb(10, 10, 10);
+    border: none;
+    padding: 5px;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+
+code a:hover {
+    background: transparent
+}
+
+table {
+    margin: 10px 0;
+    border: 1px solid #E6E6E6;
+    background-color: #fff;
+}
+
+tbody tr:hover td,
+tbody tr:hover th {
+    background: rgb(15, 15, 15);
+}
+
+thead th,
+thead td {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    white-space: nowrap;
+    border-right: 1px solid #34495e;
+    background: rgb(10, 10, 10);
+    color: #fff;
+    padding-right: 10px;
+}
+
+thead th acronym,
+thead td acronym,
+thead th sup,
+thead td sup {
+    color: #CCDDFF;
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 3px 6px;
+    vertical-align: top;
+}
+
+
+th a {
+    font-weight: bold;
+    padding-bottom: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+th {
+    background: rgb(20, 20, 20);
+    border-top: none;
+}
+
+tr.odd td {
+    background: rgb(25, 25, 25);
+}
+
+tr {
+    background: rgb(32, 32, 32);
+
+}
+
+td:first-child,
+th:first-child {
+    border-left: none;
+}
+
+#content tbody tr.checked td,
+tr.checked.odd td {
+    background: #fbe2e2;
+    color: red;
+}
+
+.hidden {
+    display: none
+}
+
+.error,
+.message {
+    padding: 0;
+    background: transparent;
+    font-weight: bold
+}
+
+.error {
+    color: #c00
+}
+
+.message {
+    color: #090
+}
+
+#content {
+    margin: 0 0 0 320px;
+    padding: 50px 20px 40px 0;
+    height: 100%;
+}
+
+#lang {
+    background: #48A5BF;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 1;
+}
+
+#lang select {
+    width: 178px;
+    padding: 5px 4px;
+}
+
+#breadcrumb {
+    position: fixed;
+    top: 0;
+    left: 300px;
+    background: linear-gradient(45deg, rgb(102, 74, 205), rgb(113, 83, 225));
+    z-index: 2;
+    width: 100%;
+    color: #ecf0f1;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom-left-radius: 16px;
+}
+
+#breadcrumb a {
+    color: #ecf0f1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#menu {
+    background: linear-gradient(45deg, rgb(64, 44, 131), rgb(57, 36, 128));
+    position: fixed;
+    top: 0;
+    color: #FFF;
+    padding: 40px 20px 20px 20px;
+    bottom: 0;
+    overflow: auto;
+    left: 0;
+    width: 240px;
+    border-right: 2px solid #34495e;
+}
+
+#menu p {
+    border-bottom: 1px solid rgb(85, 112, 139);
+}
+
+#menu a {
+    color: #FFF;
+}
+
+.scrollable{
+}
+
+.loadmore{
+    font-size: 16px;
+}
+
+#schema .table {
+    padding: 5px;
+    background: #fcfaf5;
+    border: 1px solid #d0cdc4;
+
+}
+
+#schema .table b {
+    color: #006aeb;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#schema .table b:hover {
+    color: #fff;
+}
+
+input[name=logout] {
+    color: #fce2e2;
+    background: #d73e3e;
+}
+
+input[name=drop] {
+    background-color: #c0392b;
+}
+
+input[name=logout]:hover {
+    background: #ea0202;
+}
+
+#logins a,
+#tables a {
+    background: none;
+    font-size: 16px;
+}
+
+#logins a:hover,
+#tables a:hover {}
+
+#logout {
+    color: #FFF;
+    text-decoration: none;
+    z-index: 2;
+}
+
+#logout:hover {
+    color: red;
+}
+
+.js .column {
+    background: #ecf0f1;
+}
+
+#content table thead a.text:hover {
+    text-decoration: none;
+}
+
+#version,
+.version {
+    font-size: 50%;
+}
+
+#h1:hover {
+    color: white;
+}
+
+
+input[type=submit]:active {
+    position: relative;
+    top: 1px;
+
+}
+
+
+table {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+table:before,
+table:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+table:after {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+
+i {
+    font-style: italic;
+    color: white;
+    font-size: 90%;
+    font-family: monospace;
+    border: 1px silver solid;
+}
+
+p#dbs select {
+    width: 100%;
+}
+
+p#dbs br {
+    display: none;
+}
+
+p#dbs {
+    color: white;
+    padding: 0;
+}
