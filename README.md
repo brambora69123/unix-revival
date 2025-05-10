@@ -1,4 +1,3 @@
-# unix-leak
-unix website, made by previous and his horrible dev team. 
-
-have a look at this mess.
+# unix
+Unix revival, I do not recommend using this source code for new revivals.
+The code is vulnerable and janky.
